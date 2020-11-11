@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*背景*/
+#mainScreen{
+    width: 512px;
+    height: 768px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.bg{
+    width: 512px;
+    height: 768px;
+    position: relative;
+    background-image: url(../img/关卡1.jpg);
+    background-size: cover;
+}
+
+
+
+
+/*飞机*/
+#airplane{
+    width: 40px;
+    height: 82px;
+    background-image: url(../img/飞机.png);
+    position: absolute;
+    left: 100px;
+    top: 670px;
+    background-repeat: no-repeat;
+}
+
+.bullent{
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    background-image: url(../img/双子弹.png);
+    background-size: 5px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.tank{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/敌人1.png);
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+}
